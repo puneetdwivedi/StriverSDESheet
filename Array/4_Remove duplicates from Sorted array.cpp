@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& arr) {
@@ -5,7 +6,7 @@ public:
         int j = 0;
         int n = arr.size();
         
-        while(j < arr.size()){
+        while(j < n){
             if(arr[i]  == arr[j]) j++;
             else{
                 i++;
